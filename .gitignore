@@ -1,6 +1,3 @@
-# vscode
-.vscode 
-
 # Intellij
 *.iml
 .idea
@@ -9,12 +6,17 @@
 node_modules
 package-lock.json
 
-# Don't include the compiled main.js file in the repo.
-# They should be uploaded to GitHub releases instead.
+# build
 main.js
+*.js.map
 
-# Exclude sourcemaps
-*.map
-
-# obsidian
+# obsidian plugin files
+main.js
+main.js.map
 data.json
+
+coverage
+dist
+tsconfig.tsbuildinfo
+.DS_Store
+main.js.LICENSE.txt
