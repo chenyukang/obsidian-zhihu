@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { getExtensionPath } from "./globa-var";
+import { getExtensionPath } from "./global-var";
 
 var cache = {}
 
